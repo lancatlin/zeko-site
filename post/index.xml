@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 林貓 Zeko Lin</title>
+    <link>https://zeko.studio/post/</link>
+    <description>Recent content in Posts on 林貓 Zeko Lin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>© 2020, Zeko Lin</copyright>
+    <lastBuildDate>Mon, 12 Jul 2021 11:06:44 +0800</lastBuildDate><atom:link href="https://zeko.studio/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theia</title>
+      <link>https://zeko.studio/post/theia/</link>
+      <pubDate>Mon, 12 Jul 2021 11:06:44 +0800</pubDate>
+      
+      <guid>https://zeko.studio/post/theia/</guid>
+      <description>我決心不再壓抑，即使毀滅了自己，也只想待在你懷裡</description>
+    </item>
+    
+    <item>
+      <title>空弦之歌</title>
+      <link>https://zeko.studio/post/%E7%A9%BA%E5%BC%A6%E4%B9%8B%E6%AD%8C/</link>
+      <pubDate>Sat, 10 Jul 2021 10:20:57 +0800</pubDate>
+      
+      <guid>https://zeko.studio/post/%E7%A9%BA%E5%BC%A6%E4%B9%8B%E6%AD%8C/</guid>
+      <description>彈琴累了嗎？彈空弦之歌！</description>
+    </item>
+    
+    <item>
+      <title>漂流 [Live]</title>
+      <link>https://zeko.studio/post/%E6%BC%82%E6%B5%81/</link>
+      <pubDate>Sat, 27 Mar 2021 11:24:13 +0800</pubDate>
+      
+      <guid>https://zeko.studio/post/%E6%BC%82%E6%B5%81/</guid>
+      <description>我在北科大采音吉他社期初公演的現場演出，表演我的創作《漂流》。</description>
+    </item>
+    
+    <item>
+      <title>戀愛病毒 Love Virus</title>
+      <link>https://zeko.studio/post/love-virus/</link>
+      <pubDate>Fri, 12 Mar 2021 17:57:08 +0800</pubDate>
+      
+      <guid>https://zeko.studio/post/love-virus/</guid>
+      <description>不斷升溫的 CPU，讓我開始變得糊塗，都是你的緣故，散佈戀愛病毒</description>
+    </item>
+    
+  </channel>
+</rss>

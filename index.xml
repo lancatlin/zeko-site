@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>林貓 Zeko Lin</title>
+    <link>https://zeko.studio/</link>
+    <description>Recent content on 林貓 Zeko Lin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>© 2020, Zeko Lin</copyright>
+    <lastBuildDate>Mon, 12 Jul 2021 11:06:44 +0800</lastBuildDate><atom:link href="https://zeko.studio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theia</title>
+      <link>https://zeko.studio/post/theia/</link>
+      <pubDate>Mon, 12 Jul 2021 11:06:44 +0800</pubDate>
+      
+      <guid>https://zeko.studio/post/theia/</guid>
+      <description>我決心不再壓抑，即使毀滅了自己，也只想待在你懷裡</description>
+    </item>
+    
+    <item>
+      <title>空弦之歌</title>
+      <link>https://zeko.studio/post/%E7%A9%BA%E5%BC%A6%E4%B9%8B%E6%AD%8C/</link>
+      <pubDate>Sat, 10 Jul 2021 10:20:57 +0800</pubDate>
+      
+      <guid>https://zeko.studio/post/%E7%A9%BA%E5%BC%A6%E4%B9%8B%E6%AD%8C/</guid>
+      <description>彈琴累了嗎？彈空弦之歌！</description>
+    </item>
+    
+    <item>
+      <title>漂流 [Live]</title>
+      <link>https://zeko.studio/post/%E6%BC%82%E6%B5%81/</link>
+      <pubDate>Sat, 27 Mar 2021 11:24:13 +0800</pubDate>
+      
+      <guid>https://zeko.studio/post/%E6%BC%82%E6%B5%81/</guid>
+      <description>我在北科大采音吉他社期初公演的現場演出，表演我的創作《漂流》。</description>
+    </item>
+    
+    <item>
+      <title>戀愛病毒 Love Virus</title>
+      <link>https://zeko.studio/post/love-virus/</link>
+      <pubDate>Fri, 12 Mar 2021 17:57:08 +0800</pubDate>
+      
+      <guid>https://zeko.studio/post/love-virus/</guid>
+      <description>不斷升溫的 CPU，讓我開始變得糊塗，都是你的緣故，散佈戀愛病毒</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://zeko.studio/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zeko.studio/about/</guid>
+      <description>我是林貓，現在 17 歲，主修程式設計。我喜歡創作，不論是程式、音樂還是寫作。除此之外，我是自由軟體的愛好者，我的音樂都是在 Linux 上製作的。 我有自己架的 FunkWhale，可以在這裡收聽到無損壓縮的 FLAC 檔，還可以免費下載，而且不管其他平台倒掉了還是如何，這個站都一直會在。 我的連結： FunkWhale 我的個人音樂網站 StreetVoice 音樂平台 Matters</description>
+    </item>
+    
+  </channel>
+</rss>
