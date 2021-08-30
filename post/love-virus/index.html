@@ -73,6 +73,11 @@
                         </a>
                     </li>
 				
+				<li class="header-nav-list__item">
+					<a href="/index.xml">
+						<img src="/icon/rss.svg" height=16px>
+					</a>
+				</li>
 			</ul>
 		</nav>
 		
@@ -158,10 +163,42 @@
   
     <div class="post-content"><p>這首歌寫在 2020 年的暑假，當時初次學習木吉他，這是我第一首自彈自唱的作品，也是我學習吉他練的第一首歌。簡單的 C, D7, G, Em 和弦進行，讓我很快就上手，也讓我感受到自彈自唱的魅力，現場表演真的是件很愉快的事。到了今年寒假的時候，我再將這首歌重新編曲，使其從清新可愛的風格，變得比較成熟一點。</p>
 <p>說回這首歌的內容，描述的是一個電腦愛上它的主人的故事，在主人溫柔的對待下，電腦逐漸產生了情感，而這份陌生又濃烈的情感就像病毒，逐漸滲透了整個系統。</p>
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+</style>
 <div align="center" class="audio-container">
     <video controls poster='/img/cover.jpg' class="responsive-iframe">
         <source src='/music/LoveVirus.mp3' type="audio/mpeg">
     </video>
+</div>
+<div align="center" style="margin-top: 5px;">
+    <a href='/music/LoveVirus.mp3' style="border-bottom: none; margin-right: 5px;" download>
+        <img src=/icon/download.svg height="40px">
+    </a>
+    <div class="dropdown">
+        <img src='/icon/embed.svg' height="40px">
+        <div class="dropdown-content">
+            <p>Paste this code to your website.</p>
+            <textarea rows="6" cols=30>&lt;video controls 
+    poster='https://zeko.studio/img/cover.jpg'>
+    &lt;source src='https://zeko.studio/music/LoveVirus.mp3' type="audio/mpeg">
+&lt;/video>
+Music by &lt;a href=https://zeko.studio>Zeko.Studio&lt;/a></textarea>
+        </div>
+    </div>
 </div>
 <div align="center">
 <h2 id="歌詞">歌詞</h2>

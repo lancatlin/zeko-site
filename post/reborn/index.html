@@ -73,6 +73,11 @@
                         </a>
                     </li>
 				
+				<li class="header-nav-list__item">
+					<a href="/index.xml">
+						<img src="/icon/rss.svg" height=16px>
+					</a>
+				</li>
 			</ul>
 		</nav>
 		
@@ -162,10 +167,42 @@
 <p>把握睜眼前的時間，在那之前，任何踰矩的、軟弱的欲望，都能夠放肆地呻吟和哭泣，那是好的；即便你在夢裡都知道，就算真的重生，一切也將重新來過。<br>
 ——搖百</p>
 </blockquote>
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+</style>
 <div align="center" class="audio-container">
     <video controls poster='/img/Reborn.jpg' class="responsive-iframe">
         <source src='/music/Reborn.mp3' type="audio/mpeg">
     </video>
+</div>
+<div align="center" style="margin-top: 5px;">
+    <a href='/music/Reborn.mp3' style="border-bottom: none; margin-right: 5px;" download>
+        <img src=/icon/download.svg height="40px">
+    </a>
+    <div class="dropdown">
+        <img src='/icon/embed.svg' height="40px">
+        <div class="dropdown-content">
+            <p>Paste this code to your website.</p>
+            <textarea rows="6" cols=30>&lt;video controls 
+    poster='https://zeko.studio/img/Reborn.jpg'>
+    &lt;source src='https://zeko.studio/music/Reborn.mp3' type="audio/mpeg">
+&lt;/video>
+Music by &lt;a href=https://zeko.studio>Zeko.Studio&lt;/a></textarea>
+        </div>
+    </div>
 </div>
 <div align="center">
 <h2 id="歌詞">歌詞</h2>
