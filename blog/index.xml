@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on 林貓 Zeko Lin</title>
+    <link>https://zeko.studio/blog/</link>
+    <description>Recent content in Blogs on 林貓 Zeko Lin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>© 2021, Zeko Lin</copyright>
+    <lastBuildDate>Tue, 31 Aug 2021 11:11:17 +0800</lastBuildDate><atom:link href="https://zeko.studio/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我棄用了 Funkwhale 並蓋了自己的音樂網站</title>
+      <link>https://zeko.studio/blog/build-a-music-site/</link>
+      <pubDate>Tue, 31 Aug 2021 11:11:17 +0800</pubDate>
+      
+      <guid>https://zeko.studio/blog/build-a-music-site/</guid>
+      <description>如何做一個音樂網站？答案比你想的簡單～</description>
+    </item>
+    
+    <item>
+      <title>這一天，我意識到自己是如此平庸</title>
+      <link>https://zeko.studio/blog/the-day/</link>
+      <pubDate>Wed, 23 Dec 2020 17:51:17 +0800</pubDate>
+      
+      <guid>https://zeko.studio/blog/the-day/</guid>
+      <description>「不要執著於一首作品，完成了就將它完成，不完美也沒關係，持續的學習，在新的作品將它改進。」</description>
+    </item>
+    
+  </channel>
+</rss>

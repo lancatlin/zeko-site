@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>© 2021, Zeko Lin</copyright>
-    <lastBuildDate>Thu, 26 Aug 2021 19:33:59 +0800</lastBuildDate><atom:link href="https://zeko.studio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Aug 2021 11:11:17 +0800</lastBuildDate><atom:link href="https://zeko.studio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我棄用了 Funkwhale 並蓋了自己的音樂網站</title>
+      <link>https://zeko.studio/blog/build-a-music-site/</link>
+      <pubDate>Tue, 31 Aug 2021 11:11:17 +0800</pubDate>
+      
+      <guid>https://zeko.studio/blog/build-a-music-site/</guid>
+      <description>如何做一個音樂網站？答案比你想的簡單～</description>
+    </item>
+    
     <item>
       <title>重生</title>
       <link>https://zeko.studio/post/reborn/</link>
@@ -60,6 +69,15 @@
       
       <guid>https://zeko.studio/post/love-virus/</guid>
       <description>不斷升溫的 CPU，讓我開始變得糊塗，都是你的緣故，散佈戀愛病毒</description>
+    </item>
+    
+    <item>
+      <title>這一天，我意識到自己是如此平庸</title>
+      <link>https://zeko.studio/blog/the-day/</link>
+      <pubDate>Wed, 23 Dec 2020 17:51:17 +0800</pubDate>
+      
+      <guid>https://zeko.studio/blog/the-day/</guid>
+      <description>「不要執著於一首作品，完成了就將它完成，不完美也沒關係，持續的學習，在新的作品將它改進。」</description>
     </item>
     
     <item>
