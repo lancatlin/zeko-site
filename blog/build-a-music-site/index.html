@@ -182,7 +182,8 @@
   <h1 >我棄用了 Funkwhale 並蓋了自己的音樂網站</h1>
 </div>
   
-    <div class="post-content"><p>這個網站剛創立的時候，我架了自由的音樂平台 <a href="https://funkwhale.audio/">FunkWhale</a> 來發佈我的音樂。FunkWhale 是我目前找到唯一比較面向創作者的音樂平台，而且支援 ActivityPub 這個聯邦式協議，也就是說別的 FunkWhale 站點可以聽到我網站上的音樂（反之亦是），到目前看來都非常理想。我在安裝時，由於是比較複雜的反向代理環境，遇到了很多困難，但我最後仍一一克服了。</p>
+    <div class="post-content">
+      <p>這個網站剛創立的時候，我架了自由的音樂平台 <a href="https://funkwhale.audio/">FunkWhale</a> 來發佈我的音樂。FunkWhale 是我目前找到唯一比較面向創作者的音樂平台，而且支援 ActivityPub 這個聯邦式協議，也就是說別的 FunkWhale 站點可以聽到我網站上的音樂（反之亦是），到目前看來都非常理想。我在安裝時，由於是比較複雜的反向代理環境，遇到了很多困難，但我最後仍一一克服了。</p>
 <p>FunkWhale 最大的問題是<strong>它超級慢～～</strong>，FunkWhale 是用 Django 寫的，本來體質就特肥，而且又有一堆我其實不需要的「功能」，每次上傳一首歌就在後台跑一堆轉碼處理，然後等幾個小時都不會好，得要重開機才行，而且網頁載入也超慢，打開首頁可能就要等個 5、6 秒。它的嵌入播放器也一樣，網頁打開後還要等個 5、6 秒才能播音樂，而且 FunkWhale 填歌曲資料的地方很難用，沒辦法用單行的斷行，這讓歌詞被排版的很醜。</p>
 <p>我開始尋找 FunkWhale 的替代品，驚訝的發現，幾乎所有 Self-Hosted Music Streaming 的軟體都是設計給「音樂收藏者」而非創作者，意思是會買專輯、收集自己愛聽的音樂（這麼做很好），而不只是用串流媒體的人（串流媒體的音樂不是你的音樂）。這些軟體都很不錯，我自己改天應該也會架一個，但就不符合我發佈音樂的需求。</p>
 <p>正當我快絕望，打算自己寫一個（？）的時候，我突然想到：為何不直接把音樂放在我的網站裡？就是字面上的意思，把音檔放在網站上，直接傳到瀏覽器播放，不用什麼愚蠢的資料庫和肥大的前後端，歌曲的資料直接寫在網站裡（而且有好看的排版）。我直接用網頁標準裡的 &lt;video&gt; 來播放音檔，不需要任何 <del>stupid</del> JavaScript。由於無損壓縮 FLAC 沒有被瀏覽器廣泛支援，WAV 又真的太大，OGG 某些瀏覽器不支援（Safari），我最後還是選擇比較通用的 MP3 格式。</p>
@@ -238,7 +239,15 @@
 </div>
 <p>如果不提供 cover 就會帶入預設的 cover.jpg。</p>
 <p>HTML 內建播放器載入超爆快超好用，我之前竟然用一堆又複雜又慢的程式，而根本不知道有這個好東西可以用。解決問題時真的是愈簡單的作法愈好啊！</p>
-</div>
+
+      <hr>
+      <p>如果你喜歡我的內容，希望你幫我註冊 <a href="https://like.co">LikeCoin</a> 拍手，幫我投票，我就會分到 LikeCoin 的創作基金。也可以加入我的讚賞公民，用行動支持我！</p>
+<iframe class="LikeCoin" height="235" src="https://button.like.co/in/embed/zekolin/button?referrer=https%3a%2f%2fzeko.studio%2fblog%2fbuild-a-music-site%2f" width="100%" frameborder=0></iframe>
+
+或是直接用加密貨幣：
+<p style="line-break: anywhere;">Monero: <strong>8AJP26rdNVBTEBkh545EvSF8arbktfyEccjT6dHDw3W4EmfhHrVuBN7dHzBb4BLS7yMoERgMBf8bs38QX92GG7QTHZVuoAE</strong></p>
+<p style="line-break: anywhere;">Bitcoin: <strong>bc1q5tarmcuvzpdpzyvgpthx2j0jfx2lfkxvmsxvh0</strong></p>
+    </div>
   
 </article>
 <button class="floating-button">
