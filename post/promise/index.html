@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh"><head>
+    <meta charset="UTF-8">
+    <title>約定 Promise - 林貓 Zeko Lin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="約定 Promise" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zeko.studio/post/promise/" />
+    <meta itemprop="name" content="約定 Promise">
+    <meta itemprop="description" content="">
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="約定 Promise"/>
+    <meta name="twitter:description" content=""/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+
+    
+    <link rel="stylesheet" href="https://zeko.studio/scss/style.min.9dbe50c2369acb0e783c6c764948e2b1028aa6295900634460106a2e483e1e02.css" >
+    
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//matomo.linchpins.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '5']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+</head>
+<body>
+    <header>
+	<div class="header header-frame">
+		<div>
+			<div class="header__title ">
+				<a href="/">林貓 Zeko Lin</a>
+			</div>
+			
+				<div class="header__description">音樂創作者 / 軟體開發者</div>
+			
+		</div>
+		<nav class="header-nav">
+			<ul class="header-nav-list header-nav-list--menu">
+				
+				
+                    <li class="header-nav-list__item">
+                        <a class="header-nav-list__link" href="/blog/">
+                            
+                            <span>Blog</span>
+                        </a>
+                    </li>
+				
+                    <li class="header-nav-list__item">
+                        <a class="header-nav-list__link" href="https://streetvoice.com/zeko">
+                            
+                            <span>StreetVoice</span>
+                        </a>
+                    </li>
+				
+                    <li class="header-nav-list__item">
+                        <a class="header-nav-list__link" href="https://odysee.com/@zeko:b">
+                            
+                            <span>LBRY/Odysee</span>
+                        </a>
+                    </li>
+				
+                    <li class="header-nav-list__item">
+                        <a class="header-nav-list__link" href="/about/">
+                            
+                            <span>About</span>
+                        </a>
+                    </li>
+				
+				<li class="header-nav-list__item">
+					<a href="/index.xml">
+						<img src="/icon/rss.svg" height=16px>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		
+			
+				<a aria-label="burger menu" href="#mobile-header-nav" class="mb-header__menu-btn">
+					<span class="mb-header__menu-btn-line"></span>
+					<span class="mb-header__menu-btn-line"></span>
+					<span class="mb-header__menu-btn-line"></span>
+				</a>
+			
+		
+	</div>
+	<nav id="mobile-header-nav" class="mb-header-nav">
+  
+  
+  <a href="#" class="mb-header-nav__close-btn">
+    <svg
+            class="mb-header-nav__svg-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="32"
+            height="32"
+            >
+            <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+            <path d="M0 0h24v24H0z" fill="none" />
+        </svg>
+  </a>
+  
+    <div class="mb-header-nav__wrapper">
+        <div class="mb-header-nav__container">
+            <svg
+                width="240"
+                height="72"
+                viewBox="0 0 240 72"
+                class="mb-header-nav__title"
+                >
+                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
+                Menu
+                </text>
+            </svg>
+            <ul class="mb-header-nav-list">
+                
+                
+                    
+                        <li class="mb-header-nav-list__item  cssonly ">
+                            <a class="mb-header-nav-list__link" href="/blog/">
+                                Blog
+                            </a>
+                        </li>
+                    
+                
+                    
+                        <li class="mb-header-nav-list__item  cssonly ">
+                            <a class="mb-header-nav-list__link" href="https://streetvoice.com/zeko">
+                                StreetVoice
+                            </a>
+                        </li>
+                    
+                
+                    
+                        <li class="mb-header-nav-list__item  cssonly ">
+                            <a class="mb-header-nav-list__link" href="https://odysee.com/@zeko:b">
+                                LBRY/Odysee
+                            </a>
+                        </li>
+                    
+                
+                    
+                        <li class="mb-header-nav-list__item  cssonly ">
+                            <a class="mb-header-nav-list__link" href="/about/">
+                                About
+                            </a>
+                        </li>
+                    
+                
+                <li class="mb-header-nav-list__item cssonly">
+					<a href="/index.xml" class="mb-header-nav-list__link">
+						<img src="/icon/rss.svg" height=30px>
+						RSS
+					</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+
+
+    <div id="content">
+<article class="post">
+  <div class="post-content">
+  <h1 >約定 Promise</h1>
+</div>
+  
+    <div class="post-content">
+      <style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+</style>
+<div align="center" class="audio-container">
+    <video controls poster='/img/cover.jpg' class="responsive-iframe">
+        <source src='/music/Promise.mp3' type="audio/mpeg">
+    </video>
+</div>
+<div align="center" style="margin-top: 5px;">
+    <a href='/music/Promise.mp3' style="border-bottom: none; margin-right: 5px;" download>
+        <img src=/icon/download.svg height="40px">
+    </a>
+    <div class="dropdown">
+        <img src='/icon/embed.svg' height="40px">
+        <div class="dropdown-content">
+            <p>Paste this code to your website.</p>
+            <textarea rows="6" cols=60>&lt;div align="center">
+    &lt;video controls poster='https://zeko.studio/img/cover.jpg'>
+    &lt;source src='https://zeko.studio/music/Promise.mp3' type="audio/mpeg">
+&lt;/video>
+&lt;p>Music by &lt;a href=https://zeko.studio>Zeko.Studio&lt;/a>&lt;/p>&lt;/div></textarea>
+        </div>
+    </div>
+</div>
+<div align="center">
+<h2 id="歌詞">歌詞</h2>
+<p>夕陽裡 月光 雲影<br>
+在那奔忙路上 是兩個人的耳語輕輕<br>
+拖著行李 是為了與你一起<br>
+緩步慢行於 城市美麗街景</p>
+<p>月台上的長堤 是似箭的歸心<br>
+喧囂中的寧靜 述說不願別離<br>
+張開我的雙翼 知道此刻應該抱緊將離開的你<br>
+月台鈴聲卻響起</p>
+<p>在這 一瞬間 必須要說再見<br>
+停止不住留戀 淚裡告別<br>
+哪天你 記憶感情湮滅<br>
+我會在你夢裡出現 絕不 辜負那因緣</p>
+<p>跨步踏上階梯 隔著一條間隙<br>
+列車車門關閉 對著一面玻璃<br>
+你我如此靠近 卻彷彿是生命無法跨越的距離<br>
+火車即將要遠行</p>
+<p>在這 一瞬間 必須要說再見<br>
+停止不住思念 淚裡告別<br>
+哪天你 記憶感情湮滅<br>
+我會在你夢裡出現絕不會</p>
+<p>就因此時火車讓我們分離<br>
+讓我們緣分就此消逝殆盡<br>
+我知道 之後生活的每一天 我會想起<br>
+這一刻 這一天 我們的 約定</p>
+<p>那一天 我們被迫分別<br>
+未來是否有緣 能再相見<br>
+哪天你 不再相信世界<br>
+我會陪在你的身邊<br>
+絕不會 讓你放棄<br>
+輕易的放棄 對生命的勇氣<br>
+我會想你<br>
+在每一個時刻 想到你</p>
+</div>
+<h2 id="credit">Credit</h2>
+<p>詞：蕭朝鴻<br>
+曲：林貓</p>
+
+      <hr>
+      <p>如果你喜歡我的內容，希望你幫我註冊 <a href="https://like.co">LikeCoin</a> 拍手，幫我投票，我就會分到 LikeCoin 的創作基金。也可以加入我的讚賞公民，用行動支持我！</p>
+<iframe class="LikeCoin" height="235" src="https://button.like.co/in/embed/zekolin/button?referrer=https%3a%2f%2fzeko.studio%2fpost%2fpromise%2f" width="100%" frameborder=0></iframe>
+
+或是直接用加密貨幣：
+<p style="line-break: anywhere;">Monero: <strong>8AJP26rdNVBTEBkh545EvSF8arbktfyEccjT6dHDw3W4EmfhHrVuBN7dHzBb4BLS7yMoERgMBf8bs38QX92GG7QTHZVuoAE</strong></p>
+<p style="line-break: anywhere;">Bitcoin: <strong>bc1q0m5hu5tvlsfgl2zrsse2y3rczpz67mtpmzm30z</strong></p>
+      <script defer src="https://commento.linchpins.cloud/js/commento.js"></script>
+<div id="commento"></div>
+    </div>
+  
+</article>
+<button class="floating-button">
+    <a class="floating-button__link" href="https://zeko.studio">
+        <span>Home</span>
+    </a>
+</button>
+
+
+    </div>
+    
+    <footer class="post-footer">
+    <div class="footer">
+        
+            <div>© 2021, Zeko Lin</div>
+        
+        <div class="footer__socials">
+
+
+
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+
+    
+    
+      
+    
+  </body>
+</html>
