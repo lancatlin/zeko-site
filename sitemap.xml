@@ -1,92 +1,61 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://zeko.studio/</loc>
-    <lastmod>2021-12-15T23:23:40+08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2026-10-10T16:03:34+11:00</lastmod>
+  </url><url>
+    <loc>https://zeko.studio/categories/</loc>
+    <lastmod>2026-10-10T16:03:34+11:00</lastmod>
+  </url><url>
     <loc>https://zeko.studio/post/</loc>
-    <lastmod>2021-12-15T23:23:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zeko.studio/post/promise/</loc>
-    <lastmod>2021-12-15T23:23:40+08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2026-10-10T16:03:34+11:00</lastmod>
+  </url><url>
+    <loc>https://zeko.studio/categories/%E5%AD%B8%E7%BF%92%E5%B9%B4%E4%BB%A3/</loc>
+    <lastmod>2026-10-10T16:03:34+11:00</lastmod>
+  </url><url>
+    <loc>https://zeko.studio/post/%E5%9C%A8%E5%A4%AA%E9%81%B2%E4%B9%8B%E5%BE%8C%E6%88%91%E5%80%91%E9%87%8D%E6%96%B0%E9%96%8B%E5%A7%8B/</loc>
+    <lastmod>2026-10-10T16:03:34+11:00</lastmod>
+  </url><url>
+    <loc>https://zeko.studio/about/</loc>
+    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zeko.studio/post/caramel-in-midnight/</loc>
     <lastmod>2021-10-10T11:22:43+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/post/outside/</loc>
     <lastmod>2021-09-14T17:01:55+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/blog/</loc>
     <lastmod>2021-08-31T11:11:17+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/blog/build-a-music-site/</loc>
     <lastmod>2021-08-31T11:11:17+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/post/reborn/</loc>
     <lastmod>2021-08-26T19:33:59+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/post/until/</loc>
     <lastmod>2021-08-01T15:03:26+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/post/theia/</loc>
     <lastmod>2021-07-12T11:06:44+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/post/%E7%A9%BA%E5%BC%A6%E4%B9%8B%E6%AD%8C/</loc>
     <lastmod>2021-07-10T10:20:57+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/post/%E6%BC%82%E6%B5%81/</loc>
     <lastmod>2021-03-27T11:24:13+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/post/love-virus/</loc>
     <lastmod>2021-03-12T17:57:08+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/blog/the-day/</loc>
     <lastmod>2020-12-23T17:51:17+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zeko.studio/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zeko.studio/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/series/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zeko.studio/tags/</loc>
   </url>
-  
 </urlset>

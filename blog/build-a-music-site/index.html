@@ -20,7 +20,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 
     
-    <link rel="stylesheet" href="https://zeko.studio/scss/style.min.9dbe50c2369acb0e783c6c764948e2b1028aa6295900634460106a2e483e1e02.css" >
+    <link rel="stylesheet" href="https://zeko.studio/scss/style.min.ab7869ba04683aa6a9f50069e30525a3380db585f60e749561ba6a071feb6e60.css" >
     
 <script type="text/javascript">
   var _paq = window._paq = window._paq || [];
@@ -188,18 +188,18 @@
 <p>我開始尋找 FunkWhale 的替代品，驚訝的發現，幾乎所有 Self-Hosted Music Streaming 的軟體都是設計給「音樂收藏者」而非創作者，意思是會買專輯、收集自己愛聽的音樂（這麼做很好），而不只是用串流媒體的人（串流媒體的音樂不是你的音樂）。這些軟體都很不錯，我自己改天應該也會架一個，但就不符合我發佈音樂的需求。</p>
 <p>正當我快絕望，打算自己寫一個（？）的時候，我突然想到：為何不直接把音樂放在我的網站裡？就是字面上的意思，把音檔放在網站上，直接傳到瀏覽器播放，不用什麼愚蠢的資料庫和肥大的前後端，歌曲的資料直接寫在網站裡（而且有好看的排版）。我直接用網頁標準裡的 &lt;video&gt; 來播放音檔，不需要任何 <del>stupid</del> JavaScript。由於無損壓縮 FLAC 沒有被瀏覽器廣泛支援，WAV 又真的太大，OGG 某些瀏覽器不支援（Safari），我最後還是選擇比較通用的 MP3 格式。</p>
 <p>我寫了一個 <a href="https://gohugo.io/templates/shortcode-templates/">Hugo Shortcode</a> 用來放音樂播放器，同時還有下載、嵌入按鈕，Shortcode 播放器部分內容如下（按鈕比較冗長這篇先不寫，也不包含所有 styling 的內容）：</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#998;font-style:italic">&lt;!-- layouts/shortcodes/audio.html --&gt;</span>
-&lt;<span style="color:#000080">div</span> <span style="color:#008080">align</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;center&#34;</span>&gt;
-  &lt;<span style="color:#000080">video</span>
-    <span style="color:#008080">controls</span>
-    <span style="color:#008080">poster</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#39;/img/{{ with .Get &#34;cover&#34; }}{{ . }}{{ else }}cover.jpg{{ end }}&#39;</span>
-  &gt;
-    &lt;<span style="color:#000080">source</span> <span style="color:#008080">src</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#39;/music/{{ .Get &#34;src&#34; }}&#39;</span> <span style="color:#008080">type</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;audio/mpeg&#34;</span> /&gt;
-  &lt;/<span style="color:#000080">video</span>&gt;
-&lt;/<span style="color:#000080">div</span>&gt;
-</code></pre></div><p>把音檔放在 /static/music 資料夾，封面放 /static/img 資料夾，只要在文章裡寫：</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#000080">audio</span> <span style="color:#008080">src</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">Reborn.mp3</span> <span style="color:#008080">cover</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">Reborn.jpg</span> &gt;}}
-</code></pre></div><p>就能得到：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#57606a">&lt;!-- layouts/shortcodes/audio.html --&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">&lt;</span><span style="color:#0550ae">div</span> <span style="color:#1f2328">align</span><span style="color:#0550ae">=</span><span style="color:#0a3069">&#34;center&#34;</span><span style="color:#1f2328">&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">&lt;</span><span style="color:#0550ae">video</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">controls</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">poster</span><span style="color:#0550ae">=</span><span style="color:#0a3069">&#39;/img/{{ with .Get &#34;cover&#34; }}{{ . }}{{ else }}cover.jpg{{ end }}&#39;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">&lt;</span><span style="color:#0550ae">source</span> <span style="color:#1f2328">src</span><span style="color:#0550ae">=</span><span style="color:#0a3069">&#39;/music/{{ .Get &#34;src&#34; }}&#39;</span> <span style="color:#1f2328">type</span><span style="color:#0550ae">=</span><span style="color:#0a3069">&#34;audio/mpeg&#34;</span> <span style="color:#1f2328">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">&lt;/</span><span style="color:#0550ae">video</span><span style="color:#1f2328">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">&lt;/</span><span style="color:#0550ae">div</span><span style="color:#1f2328">&gt;</span>
+</span></span></code></pre></div><p>把音檔放在 /static/music 資料夾，封面放 /static/img 資料夾，只要在文章裡寫：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{<span style="color:#1f2328">&lt;</span> <span style="color:#0550ae">audio</span> <span style="color:#1f2328">src</span><span style="color:#0550ae">=</span><span style="color:#0a3069">Reborn.mp3</span> <span style="color:#1f2328">cover</span><span style="color:#0550ae">=</span><span style="color:#0a3069">Reborn.jpg</span> <span style="color:#1f2328">&gt;</span>}}
+</span></span></code></pre></div><p>就能得到：</p>
 <style>
     .dropdown {
         position: relative;
@@ -230,10 +230,10 @@
         <div class="dropdown-content">
             <p>Paste this code to your website.</p>
             <textarea rows="6" cols=60>&lt;div align="center">
-    &lt;video controls poster='https://zeko.studio/img/Reborn.jpg'>
-    &lt;source src='https://zeko.studio/music/Reborn.mp3' type="audio/mpeg">
+    &lt;video controls poster='https://zeko.studio//img/Reborn.jpg'>
+    &lt;source src='https://zeko.studio//music/Reborn.mp3' type="audio/mpeg">
 &lt;/video>
-&lt;p>Music by &lt;a href=https://zeko.studio>Zeko.Studio&lt;/a>&lt;/p>&lt;/div></textarea>
+&lt;p>Music by &lt;a href=https://zeko.studio/>Zeko.Studio&lt;/a>&lt;/p>&lt;/div></textarea>
         </div>
     </div>
 </div>
@@ -253,7 +253,7 @@
   
 </article>
 <button class="floating-button">
-    <a class="floating-button__link" href="https://zeko.studio">
+    <a class="floating-button__link" href="https://zeko.studio/">
         <span>Home</span>
     </a>
 </button>
@@ -264,7 +264,7 @@
     <footer class="post-footer">
     <div class="footer">
         
-            <div>© 2021, Zeko Lin</div>
+            <div>© 2026, Zeko Lin</div>
         
         <div class="footer__socials">
 
